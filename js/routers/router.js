@@ -8,7 +8,7 @@ var Workspace = Backbone.Router.extend({
   },
 
   setFilter: function( param ) {
-
+    console.log(param);
     if(param) {
 
       param = param.trim();
